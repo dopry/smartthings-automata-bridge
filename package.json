@@ -1,10 +1,11 @@
 {
-  "name": "smartthings-mqtt-bridge",
-  "version": "2.0.0",
-  "description": "Bridge between SmartThings and an MQTT broker",
+  "name": "smartthings-automata-bridge",
+  "version": "1.0.0",
+  "description": "Bridge between SmartThings and an Automata MQTT broker",
   "main": "server.js",
+  "engines" : { "node" : ">=8.4.0" },
   "bin": {
-    "smartthings-mqtt-bridge": "./bin/smartthings-mqtt-bridge"
+    "smartthings-automata-bridge": "./bin/smartthings-automata-bridge"
   },
   "scripts": {
     "pretest": "npm run hint && npm run style",
@@ -15,19 +16,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/stjohnjohnson/smartthings-mqtt-bridge.git"
+    "url": "https://github.com/spry-group/smartthings-automata-bridge.git"
   },
   "keywords": [
     "smartthings",
-    "mqtt",
-    "broker"
+    "automata"
   ],
-  "author": "St. John Johnson <st.john.johnson@gmail.com>",
+  "author": "Darrel O'Pry <darrel.opry@spry-group.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/stjohnjohnson/smartthings-mqtt-bridge/issues"
+    "url": "https://github.com/spry-group/smartthings-automata-bridge/issues"
   },
-  "homepage": "https://github.com/stjohnjohnson/smartthings-mqtt-bridge",
+  "homepage": "https://github.com/spry-group/smartthings-automata-bridge",
   "dependencies": {
     "async": "^1.5.2",
     "body-parser": "^1.14.1",

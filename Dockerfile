@@ -1,5 +1,5 @@
-FROM node:4
-MAINTAINER St. John Johnson <st.john.johnson@gmail.com> and Jeremiah Wuenschel <jeremiah.wuenschel@gmail.com>
+FROM node:8.9.4-alpine
+LABEL author="Darrel O'Pry <darrel.opry@spry-group.com>"
 
 # Create our application direcory
 RUN mkdir -p /usr/src/app
